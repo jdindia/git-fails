@@ -19,16 +19,11 @@ namespace WindowsFormsApplication1
 
         private void render_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD:warmup/warmup/Form1.cs
             Graphics gr = Graphics.FromImage(viewBox.Image);
             Random random = new Random();
             Pen pen = new Pen ( Color.FromArgb(random.Next(255),random.Next(255),random.Next(255)) );
             gr.DrawEllipse ( pen, random.Next(viewBox.Width-10),random.Next(viewBox.Height-10),10,10);
             viewBox.Invalidate();
-=======
-            
-            
->>>>>>> origin/master:warmup/warmup/Form1.cs
         }
 
         private void close_Click(object sender, EventArgs e)
